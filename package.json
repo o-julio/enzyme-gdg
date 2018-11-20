@@ -80,7 +80,10 @@
       "!<rootDir>/src/**/*.stub.js"
     ],
     "collectCoverage": true,
-    "coverageReporters": ["json", "html"],
+    "coverageReporters": [
+      "json",
+      "html"
+    ],
     "setupTestFrameworkScriptFile": "<rootDir>/config/enzymeSetup.js",
     "resolver": "jest-pnp-resolver",
     "setupFiles": [
