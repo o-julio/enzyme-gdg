@@ -16,6 +16,7 @@ export default class RepoList extends Component {
     });
   }
 
+  /* istanbul ignore next */
   componentDidMount() {
     this.getRepos();
   }
@@ -35,7 +36,6 @@ export default class RepoList extends Component {
 RepoList.propTypes = {
   filter: PropTypes.string.isRequired,
   username: PropTypes.string.isRequired,
-  getRepos: PropTypes.func,
 };
 
 function renderRepos(repos, filter) {
